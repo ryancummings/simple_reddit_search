@@ -1,0 +1,1 @@
+This is a barebones reddit search site that searches the most recent 100 posts in a subreddit, useful if you want to make a purchase from a marketplace subreddit like /r/mechmarket. It's a trial run for deploying a more complicated site later!

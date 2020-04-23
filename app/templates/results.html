@@ -1,0 +1,16 @@
+{% if posts %}
+<hr>
+<div class="container">
+    <div>
+        <h3 class="text-center">Results</h3>
+        <h6 class="text-center">Click a result to open it in a new tab</h6>
+    </div>
+
+    <div class="list-group">
+        {% for post in posts %}
+        <a href="{{ post.url }}" target="_blank" class="list-group-item list-group-item-action">{{ post.title }} - {{ post.timestamp }}</a>
+        {% endfor %}
+    </div>
+</div>
+
+{% endif %}
