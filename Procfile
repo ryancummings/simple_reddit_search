@@ -1,1 +1,1 @@
-web: gunicorn searchreddit.wsgi --log-file -
+web: gunicorn simplesearch.wsgi --log-file -
